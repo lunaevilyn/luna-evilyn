@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Luna Évilyn | Médica Clínica Geral</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <!-- Menu de Navegação -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Luna Évilyn</a>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#work">Locais de Trabalho</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seção Home -->
+    <section id="home" class="hero">
+        <div id="particles-js"></div>
+        <div class="container">
+            <h1 class="fade-in">Dra. Luna Évilyn</h1>
+            <p class="tagline fade-in">Cuidar é mais que tratar. É transformar vidas com conhecimento e empatia.</p>
+            <a href="#formacao" class="cta-button">Conheça minha trajetória</a>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Formação -->
+    <section id="formacao" class="timeline">
+        <div class="container">
+            <h2>Formação</h2>
+            <div class="timeline-container"></div>
+        </div>
+    </section>
+
+    <!-- Seção Locais de Trabalho -->
+    <section id="work" class="work-section">
+        <div class="container">
+            <h2>Locais de Atuação</h2>
+            <div class="work-grid"></div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/luna.png" alt="Dra. Luna Évilyn">
+                </div>
+                <div class="about-text">
+                    <h2>Sobre Mim</h2>
+                    <p>Médica clínica geral com vasta experiência em medicina preventiva e promoção da saúde. Comprometida com a excelência no atendimento integral e com a constante atualização profissional em medicina baseada em evidências.</p>
+                    <div class="about-stats"></div>
+                    <div class="about-skills"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Cursos -->
+    <section id="cursos" class="courses-section">
+        <div class="container">
+            <h2>Cursos e Especializações</h2>
+            <div class="courses-grid"></div>
+        </div>
+    </section>
+
+    <!-- Seção de Depoimentos -->
+    <section id="depoimentos" class="testimonials-section">
+        <div class="container">
+            <h2>Depoimentos</h2>
+            <div class="testimonial-slider"></div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info"></div>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Nome</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required></textarea>
+                        <label for="message">Mensagem</label>
+                    </div>
+                    <button type="submit" class="submit-button">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2024 Dra. Luna Évilyn. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Popup de Boas-vindas -->
+    <div id="welcome-popup" class="welcome-popup">
+        <div class="popup-content">
+            <h3>Bem-vindo à jornada da Dra. Luna Évilyn</h3>
+            <button class="close-popup">&times;</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
